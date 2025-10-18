@@ -2,7 +2,7 @@
 id: 29ad4clnmdutuvk9ulp2bej
 title: DockerSetup
 desc: ""
-updated: 1760830133603
+updated: 1760830366316
 created: 1760829775375
 ---
 
@@ -118,12 +118,4 @@ To install Docker on macOS:
 
 ### Explanation of the Image
 
-The image `image-8.png` likely provides a visual representation of Docker's setup process or its compatibility across different operating systems. Here's an explanation based on the requirements for Windows, macOS, and Linux:
-
-- **Windows**: The image might highlight that Docker Desktop requires enabling the Windows Subsystem for Linux (WSL 2). This is a prerequisite for running Docker on Windows, as Docker relies on WSL 2 to provide a Linux kernel interface. The image could also show the steps to enable WSL 2 or the integration between Docker and Windows.
-
-- **macOS**: The image might illustrate the simplicity of setting up Docker Desktop on macOS. Since macOS supports Docker through Docker Desktop, the image could emphasize the drag-and-drop installation process and the seamless integration with macOS features.
-
-- **Linux (Debian-Based)**: The image might demonstrate that Docker is natively supported on Linux. Unlike Windows and macOS, Linux does not require Docker Desktop or additional layers like WSL 2. The image could show the direct installation process using package managers like `apt` and highlight the lightweight nature of Docker on Linux.
-
-This explanation assumes the image visually compares the setup processes or highlights Docker's compatibility across these platforms. If the image contains specific details, such as commands or diagrams, it would further clarify these points.
+For macOS and Windows, if the system meets the requirements, Docker Desktop can be installed. If the requirements are not met, Docker Toolbox can be used as an alternative. On Linux, Docker is natively supported.
