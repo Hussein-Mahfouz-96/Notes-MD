@@ -2,7 +2,7 @@
 id: xux6736mip2hqj9w51ca7zi
 title: virtualMachinesVsDockerContainer
 desc: ""
-updated: 1760747470605
+updated: 1760747799737
 created: 1760745523498
 ---
 
@@ -67,3 +67,5 @@ By understanding these differences, you can choose the right tool for your speci
 ![alt text](image-5.png)
 
 ![alt text](image-6.png)
+
+![alt text](image-7.png)

@@ -4,4 +4,4 @@ build
 seeds
 .next
 pods/service-connections
-settings.json
+.vscode/settings.json
