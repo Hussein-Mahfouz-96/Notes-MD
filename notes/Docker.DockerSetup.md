@@ -2,7 +2,7 @@
 id: 29ad4clnmdutuvk9ulp2bej
 title: DockerSetup
 desc: ""
-updated: 1760829778836
+updated: 1760830133603
 created: 1760829775375
 ---
 
@@ -115,3 +115,4 @@ To install Docker on macOS:
    ```bash
    docker --version
    ```
+![alt text](image-8.png)
