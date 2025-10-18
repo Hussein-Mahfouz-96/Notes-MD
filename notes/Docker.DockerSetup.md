@@ -115,4 +115,13 @@ To install Docker on macOS:
    ```bash
    docker --version
    ```
-![alt text](image-8.png)
+
+### Explanation of the Image
+
+The image `image-8.png` likely provides a visual representation of Docker's setup process or its architecture. Visual aids like this are helpful for understanding complex concepts. For example, it might illustrate:
+
+- The steps involved in setting up Docker on different operating systems.
+- The architecture of Docker, showing how containers interact with the host OS and Docker Engine.
+- A comparison between Docker containers and other virtualization technologies.
+
+If the image contains specific details, such as commands or diagrams, it would complement the written instructions by providing a clearer understanding of the setup process.
