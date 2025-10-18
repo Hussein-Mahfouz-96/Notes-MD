@@ -118,10 +118,12 @@ To install Docker on macOS:
 
 ### Explanation of the Image
 
-The image `image-8.png` likely provides a visual representation of Docker's setup process or its architecture. Visual aids like this are helpful for understanding complex concepts. For example, it might illustrate:
+The image `image-8.png` likely provides a visual representation of Docker's setup process or its compatibility across different operating systems. Here's an explanation based on the requirements for Windows, macOS, and Linux:
 
-- The steps involved in setting up Docker on different operating systems.
-- The architecture of Docker, showing how containers interact with the host OS and Docker Engine.
-- A comparison between Docker containers and other virtualization technologies.
+- **Windows**: The image might highlight that Docker Desktop requires enabling the Windows Subsystem for Linux (WSL 2). This is a prerequisite for running Docker on Windows, as Docker relies on WSL 2 to provide a Linux kernel interface. The image could also show the steps to enable WSL 2 or the integration between Docker and Windows.
 
-If the image contains specific details, such as commands or diagrams, it would complement the written instructions by providing a clearer understanding of the setup process.
+- **macOS**: The image might illustrate the simplicity of setting up Docker Desktop on macOS. Since macOS supports Docker through Docker Desktop, the image could emphasize the drag-and-drop installation process and the seamless integration with macOS features.
+
+- **Linux (Debian-Based)**: The image might demonstrate that Docker is natively supported on Linux. Unlike Windows and macOS, Linux does not require Docker Desktop or additional layers like WSL 2. The image could show the direct installation process using package managers like `apt` and highlight the lightweight nature of Docker on Linux.
+
+This explanation assumes the image visually compares the setup processes or highlights Docker's compatibility across these platforms. If the image contains specific details, such as commands or diagrams, it would further clarify these points.
