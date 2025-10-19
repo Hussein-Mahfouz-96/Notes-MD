@@ -2,7 +2,7 @@
 id: 1zblr3y4tll4qt16n5k5r21
 title: DockerSetupWindows
 desc: ""
-updated: 1760831508629
+updated: 1760832613102
 created: 1760831321418
 ---
 
@@ -12,7 +12,7 @@ To set up Docker for Windows, visit the official website: [Docker Desktop for Wi
 
 ### Prerequisites
 
-To use Docker Desktop on your system, you need to enable Hyper-V and Containers for Windows. Run the following commands in PowerShell as an administrator:
+To use Docker Desktop on your system, you need to enable Hyper-V and Containers for Windows, also we need to enable WSL features in windows. Run the following commands in PowerShell as an administrator:
 
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
@@ -21,6 +21,9 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName Containers -All
 ```
+
+For WSL we can follow instructions in this URL:
+https://learn.microsoft.com/en-us/windows/wsl/install
 
 ### Installation
 
