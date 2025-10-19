@@ -2,7 +2,7 @@
 id: 1zblr3y4tll4qt16n5k5r21
 title: DockerSetupWindows
 desc: ""
-updated: 1760832613102
+updated: 1760837335285
 created: 1760831321418
 ---
 
@@ -28,3 +28,4 @@ https://learn.microsoft.com/en-us/windows/wsl/install
 ### Installation
 
 Follow the instructions provided on the Docker website to complete the installation of Docker Desktop on your system.
+
